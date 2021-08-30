@@ -1,0 +1,25 @@
+{
+    "dishes": {
+        "01": {
+            "id": "01",
+            "image":"https://zgardensantamonica.com/wp-content/uploads/2020/07/salmon_KETO-min.png",
+            "name":"Spicy seasoned seafood noodles",
+            "price":"82.39",
+            "quantity":"2"
+        },
+        "02": {
+            "id": "02",
+            "image":"https://www.seekpng.com/png/full/88-882410_food-dish-png.png",
+            "name":"Salted Pasta with mushroom sauce",
+            "price":"24.13",
+            "quantity":"5"
+        },
+        "03": {
+            "id": "03",
+            "image":"https://uae.munchon.com/static/about/about-fold.png",
+            "name":"Beef dumpling in hot and sour soup",
+            "price":"9.38",
+            "quantity":"8"
+        }
+    }
+}
