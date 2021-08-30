@@ -143,13 +143,8 @@ new Vue({
             alertBox.querySelector('p').innerHTML = msg;
             alertBox.className = '';
             alertBox.classList.add(status);
-
-            if (audio=='pop-up') {
-                (new Audio('../audio/pop-up.mp3')).play();
-            }else {
-                (new Audio('../audio/pop-out.mp3')).play();
-
-            }
+            
+            (new Audio(`../audio/${audio}.mp3`)).play();
 
             clearTimeout(this.alertTimer);
             this.alertTimer = setTimeout(() => {

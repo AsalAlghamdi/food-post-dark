@@ -20,4 +20,5 @@ mix.js('resources/js/app.js', 'public/js')
 
     .babel('resources/js/vue.js', 'public/js/vue.min.js')
 
-    .browserSync('http://127.0.0.1:8000');
+    .browserSync('http://127.0.0.1:8000')
+    .version();
