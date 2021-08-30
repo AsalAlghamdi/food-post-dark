@@ -13,3 +13,7 @@ It uses Laravel backend framework with Vue.js frontend library, in addition with
 ## Live Demo
 
 Link will be available soon..
+
+## UI Link
+
+<a target="_blank" href="https://www.figma.com/community/file/944188956363619079">Food POS Dark</a>
