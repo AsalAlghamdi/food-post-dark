@@ -4,16 +4,14 @@
 
 ## About
 
-It is an online coded project of the order page form Food-POS-Dark-Dashboard UI design.
+It is a web project of order page that users can fill the order list from many food dishes and confirm their order, this page has been coded from a UI design by <a target="_blank" href="https://www.figma.com/@yahyaamirudin">@yahyaamirudin</a>.
+</br></br>
+you can check the full UI design here <a target="_blank" href="https://www.figma.com/community/file/944188956363619079">Food POS Dark</a>
 
 ## Frameworks and Tools
 
-It uses Laravel backend framework with Vue.js frontend library, in addition with bootstrap, jQuery, and helping template <a target="_blank" href="https://preview.themeforest.net/item/cork-responsive-admin-dashboard-template/full_screen_preview/25582188">Cork-Dashboard</a>
+The project build with Laravel backend framework and Vue.js library for the frontend, in addition to bootstrap, jQuery, and using a helpful template from <a target="_blank" href="https://preview.themeforest.net/item/cork-responsive-admin-dashboard-template/full_screen_preview/25582188">Cork-Dashboard</a>.
 
 ## Live Demo
 
 Link will be available soon..
-
-## UI Link
-
-<a target="_blank" href="https://www.figma.com/community/file/944188956363619079">Food POS Dark</a>
