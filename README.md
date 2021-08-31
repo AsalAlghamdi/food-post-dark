@@ -14,4 +14,4 @@ The project build with Laravel backend framework and Vue.js library for the fron
 
 ## Live Demo
 
-Link will be available soon..
+<a target="_blank" href="https://food-pos.asalalghamdi.com/">Food POS Demo</a>
