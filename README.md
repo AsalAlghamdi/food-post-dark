@@ -17,7 +17,7 @@ The project build with Laravel backend framework and Vue.js library for the fron
 This project has been built with Laravel framework version 8, so if you want to run this application locally you have to install all the framework requirements as:
 - <a href="https://getcomposer.org/">Composer</a>
 - <a href="https://www.php.net/downloads">PHP</a>>= 7.3
-- local server (e.g. <a href="https://laragon.org/download/index.html">Laragon</a>)
+- localhost server (e.g. <a href="https://laragon.org/download/index.html">Laragon</a>)
 
 Beside it uses the NPM packages so be sure that you have installed <a href="https://nodejs.org/en/download/">Node.js</a> in your device.
 
