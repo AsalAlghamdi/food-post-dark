@@ -147,4 +147,7 @@ a.menu-toggle[data-active="true"] {
             z-index: -1;
         }
     }
+    &:hover {
+        filter: none !important;
+    }
 }
