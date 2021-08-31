@@ -8,7 +8,7 @@ It is a web project of order page that users can fill the order list from many f
 </br></br>
 you can check the full UI design here <a target="_blank" href="https://www.figma.com/community/file/944188956363619079">Food POS Dark</a>
 
-## Frameworks and Tools
+## Framework and Tools
 
 The project build with Laravel backend framework and Vue.js library for the frontend, in addition to bootstrap, jQuery, and using a helpful template from <a target="_blank" href="https://preview.themeforest.net/item/cork-responsive-admin-dashboard-template/full_screen_preview/25582188">Cork-Dashboard</a>.
 
