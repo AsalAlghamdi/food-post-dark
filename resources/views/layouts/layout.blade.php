@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>@yield('title')</title>
+    <title>Food POS | @yield('title')</title>
     <link href="{{asset('assets/css/loader.css')}}" rel="stylesheet" type="text/css" />
     <script src="{{asset('assets/js/loader.js')}}"></script>
 
@@ -20,17 +20,16 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#252836">
 
     <!-- Standard SEO -->
-    <meta name="description" content="Order Dishes Online">
+    <meta name="description" content="Food POS website, order your favorite dishes from many popular restaurants.">
+    <meta name="keywords" content="Food POS,food,pos,figma,ui,design,restaurant">
     <!-- Open Graph Protocol -->
-    <meta property="og:image" content="">
-    <meta property="og:title" content="Food POS Dark">
-    <meta property="og:description" content="Order Dishes Online Now">
+    <meta property="og:image" content="{{asset('img/food-pos-seo.jpg')}}">
+    <meta property="og:title" content="Food POS | @yield('title')">
+    <meta property="og:description" content="Food POS website, order your favorite dishes from many popular restaurants.">
     <!-- Twitter Card Info -->
-    <meta name="twitter:image" content="">
-    <meta name="twitter:title" content="Food POS Dark">
-    <meta name="twitter:description" content="Order Dishes Online Now">
-
-
+    <meta name="twitter:image" content="{{asset('img/food-pos-seo.jpg')}}">
+    <meta name="twitter:title" content="Food POS | @yield('title')">
+    <meta name="twitter:description" content="Food POS website, order your favorite dishes from many popular restaurants.">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     @include('partials.styles')
