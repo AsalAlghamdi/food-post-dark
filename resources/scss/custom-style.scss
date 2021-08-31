@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 
-$primary: #EA7C69;
+$primary: #ea7c69;
 $dark: #252836;
-$darker: #1F1D2B;
-$red: #FF7CA3;
+$darker: #1f1d2b;
+$red: #ff7ca3;
+
+// Size
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 body {
     background-color: $dark !important;
     color: #fff !important;
     * {
-        font-family: 'Barlow', sans-serif;
+        font-family: "Barlow", sans-serif;
     }
 }
 
@@ -33,19 +39,18 @@ body {
     }
     .nav-item form.form-inline input.search-form-control {
         background-color: #ffffff0a !important;
-        border: 1px solid #393C49 !important;
+        border: 1px solid #393c49 !important;
     }
 }
 
-
-
-// SIDEBAR 
+// SIDEBAR
 .sidebar-theme #compactSidebar {
     background: $darker;
 }
-.sidebar-wrapper #compactSidebar .menu-categories li.menu.active a.menu-toggle, .sidebar-wrapper #compactSidebar .menu-categories li.menu a.menu-toggle[data-active="true"] {
+.sidebar-wrapper #compactSidebar .menu-categories li.menu.active a.menu-toggle,
+.sidebar-wrapper #compactSidebar .menu-categories li.menu a.menu-toggle[data-active="true"] {
     background-color: $primary;
-    box-shadow: 0px 3.7728378772735596px 11.318513870239258px 0px #EA7C6952;
+    box-shadow: 0px 3.7728378772735596px 11.318513870239258px 0px #ea7c6952;
     svg {
         color: #fff;
         fill: #fff;
@@ -76,8 +81,13 @@ body {
     border-radius: 0 15px 15px 0;
 }
 
-// CONTENT 
-h1, h2, h3, h4, h5, h6 {
+// CONTENT
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #fff;
 }
 
@@ -89,7 +99,7 @@ a {
     color: #fff;
     &:hover {
         color: inherit;
-        filter: brightness(.57) !important;
+        filter: brightness(0.57) !important;
     }
 }
 
@@ -107,5 +117,34 @@ select {
 .sidebarCollapse {
     @media screen and (min-width: 1199px) {
         display: none;
+    }
+}
+// .menu.active {
+//     position: relative;
+//     .bg-tab {
+//         position: absolute;
+//         right: 0;
+//         top: -10%;
+//         width: 93%;
+//         height: 130%;
+//         border-radius: 10px 0 0 10px;
+//         // margin: 10px 2px 0 2px ;
+//         background-color: $dark;
+//         z-index: -1;
+//     }
+// }
+
+a.menu-toggle[data-active="true"] {
+    @media screen and (min-width: $xl) {
+        &::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            width: 93%;
+            height: 120%;
+            border-radius: 10px 0 0 10px;
+            background-color: $dark;
+            z-index: -1;
+        }
     }
 }
