@@ -18,10 +18,6 @@
 
         <ul class="menu-categories">
             <li class="menu active">
-                <div class="bg-tab">
-                    <div class="top"></div>
-                    <div class="bottom"></div>
-                </div>
                 <a href="javascript:void(0)" data-active="true" class="menu-toggle">
                     <div class="base-menu">
                         <div class="base-icons">
