@@ -40,7 +40,7 @@ Vue.component('order-item', {
             </div>
             <div class="row m-0 align-items-center pt-2">
                 <div class="col-9 p-0">
-                    <input type="text" class="text-justify" placeholder="Please, just a little bit spicy only.">
+                    <input type="text" class="text-justify" placeholder="Order Note...">
                 </div>
                 <div class="col-3 text-center">
                     <button type="button" class="delete-item" @click="deleteDish(dish['id'])">
