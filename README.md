@@ -1,6 +1,6 @@
 # Food POS Dark Dashboard
 
-<img src="https://s3-alpha.figma.com/hub/file/686420138/d8b7b795-7fd2-455f-8427-642e97b0e014-cover.png" />
+<img src="https://food-pos.asalalghamdi.com/img/food-pos-seo.jpg" />
 
 ## About
 
