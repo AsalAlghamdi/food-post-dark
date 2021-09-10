@@ -27,6 +27,7 @@
     <meta property="og:title" content="Food POS | @yield('title')">
     <meta property="og:description" content="Food POS website, order your favorite dishes from many popular restaurants.">
     <!-- Twitter Card Info -->
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{asset('img/food-pos-seo.jpg')}}">
     <meta name="twitter:title" content="Food POS | @yield('title')">
     <meta name="twitter:description" content="Food POS website, order your favorite dishes from many popular restaurants.">
